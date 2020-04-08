@@ -1,0 +1,100 @@
+complete codepen: https://codepen.io/arnulfo-melgar/pen/ExVYVMw?editors=1100
+
+<!-- Questions to Submit in today's file first-lastname.txt --> 
+<!--
+Copy the questions below into the first-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+    //It gives meaning to a piece of text before it is decorated. <p> for example defines a paragraph. 
+    2. What is HTML used for? 
+    //It creates the base of a website. it can be compared to the skin of a person, css would be the clothes. 
+    3. What is an attribute and where do we put it? 
+    //A word that controls an element such as "class"
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    //It usually used for the header and it emphazises most of the times the purpose of that website to exist. I would say it is used only once. 
+    5. Name two tags that have required attributes
+    // image src & id
+    6. What do we put in the head of our HTML document? 
+    //header 
+    7. What is an id? 
+    //a unique way to identify an element
+    8. What elements can I add an id to? 
+    //to all of them
+    9. How many times can I use the same id on a page? 
+    //once
+    10. What is a class? 
+    //a way to put a name to several elements so it can be edited as a group.
+    11. What elements can I add a class to? 
+    //all of them
+    12. How many times can I use the same class on a page? 
+    //multiple times
+    13. How do I get my link to open in a new tab?
+    // put a tag, specifically <a href="">
+    14. What is the alt attribute in the image tag used for? 
+    //a text applied to an image in case it cannot be rendered
+    15. How do I reference an id?
+    //with a hashtag
+    16. What is the difference between a section and a div
+    //section means that the content inside belongs together. Div divides elements that might be into the same category such as the title of a paragraph and the paragraph itself.
+    17. What is CSS used for? 
+    //styling the website. 
+    18. How to we select an element? Example - every h2 on the page
+    //by using a selector. h2 {} for example
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    //an Id can identify only one element and a class can identify multiple elements.
+    20. How do we select classes in CSS?
+    // with a dot. for example: .class {}
+    21. How do we select a p element with a single class of “human””?
+    //you call only the class. .human
+    22. What is a parent child selector? When would this be useful? 
+    //select all elements from an specefied element. 
+    23. How do you select all links within a div with the class of sidebar?
+    //.sidebar a
+    24. What is a pseudo selector?
+    //they target things that can't be targeted with selectors like id or class
+    25. What do we use the change the spacing between lines?
+    //line.height : -px;
+    26. What do we use to change the spacing between letters?
+    //css
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    //using pseudo selectors. p::first-letter { text-transform: uppercase;
+    28. How do I add a 1px border around my div that is dotted and black?
+    //writing border: 1px dotted black
+    29. How do I select everything on the page? 
+    //putting an asterisk = *{}
+    30. How do I write a comment in CSS?
+    // <!--- -->
+    31. How do I find out what file I am in, when I am using the command line? 
+    //it displays the name over the line where you're writing. 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    //ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    //rm file name
+    34. Why should I use version control? 
+    //Because it records changes and when an error is made, it makes it easier to know where it is. 
+    35. How often should I commit to github?
+    //every time you made major changes
+    36. What is the command we would use to push our repo up to github? 
+    //push
+    37. Walk me through Lambda's git flow. 
+    // it works in a team way. It all begins forking, where you make the project practically yours and you're able to control it freely. There is a buttom that says fork, that's what you're looking for.
+    then you should add your TL as your collaborator in git hub. that is on settings, then collaborations. Then you clone the repo, it is a huge green buttom saying clone or download. it is going to give
+    you a link.After that you want to open github bash and then you type git clone and the link it shows you. Then you create your own branch by typing git checkout -b"first and last name" and your name. 
+    then you type git add . and it will add the changes and make em ready for committing. after that, you type git commit -m"message here", but instead of literally putting message here you should put the
+    changes that you've add it to the repo that you're commiting. after that, you type git push -u origin branch-name to push your stuff onto github. (branch name is the name that you gave it before which should
+    be your first and last name). after that, you submit a pull request in github. you click the brand master buttom and it will show you your name, select it and then you select new pull request and it will
+    redirect you to a page where you instead of clicking "create pull request", you go to the base repository and you select to your forked repo instead of the one that says lambda. then you add your tl to the reviewers
+    and then submit the pull request. It is very important that you don't merge pull request as it will be merge after the review is done. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    //block elements are most of the time structural, and inline elements are more based on text.
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+   --> 
